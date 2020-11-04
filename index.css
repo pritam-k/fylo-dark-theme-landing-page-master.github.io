@@ -61,7 +61,7 @@ div.nav-items ul li button{
     font-size: 14px;
     border-radius: 10px;
     cursor: pointer;
-}
+} 
 
 /*-------------Hero section------------*/
 div.hero{
@@ -267,6 +267,76 @@ input[type="email"]{
 
 
 /*------------media queries starts---------------------*/
+/*-------nav meadia queries----------*/
+ @media(max-width: 992px){
+    div.nav{
+        padding: 25px 30px 0 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    div.company-logo img{
+        width: 50%;
+    }
+    div.nav-items ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 0 20px;
+    }
+    div.nav-items ul li a{
+        text-decoration: none;
+        color:#fff;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    div.nav-items ul li button{
+        border: 0;
+        padding: 10px 20px;
+        background-color: hsl(198, 60%, 50%);
+        color:#fff;
+        font-family: Open Sans;
+        font-size: 14px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 576px){
+    div.nav{
+        padding: 25px 30px 0 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    div.company-logo img{
+        width: 50%;
+    }
+    div.nav-items ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 0 1px;
+    }
+    div.nav-items ul li a{
+        text-decoration: none;
+        color:#fff;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    div.nav-items ul li button{
+        border: 0;
+        padding: 10px 20px;
+        background-color: hsl(198, 60%, 50%);
+        color:#fff;
+        font-family: Open Sans;
+        font-size: 14px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
+
+
 /*---------Productive meadia queries----------*/
 @media (max-width: 992px){
     .features, .productive{
@@ -449,7 +519,7 @@ input[type="email"]{
         margin-left: 20px;
     }
     .social-icon i{
-        padding: 0 10px;
+        margin: 0 10px;
     }
 }
 @media (max-width: 576px){
