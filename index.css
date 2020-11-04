@@ -536,3 +536,109 @@ input[type="email"]{
         cursor: pointer;
     }
 }
+
+/*----------------Hero media queris------------*/
+@media(max-width: 992px){
+div.hero{
+    margin: 0 10%;
+    text-align: center;
+    color:#fff;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.heading{
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+}
+.hero-paragraph, .feature-text{
+    font-size: 14px;
+    font-family: Open Sans;
+    padding: 20px 0;
+    margin: 0 10%;
+}
+div.hero img{
+    width: 60%;
+    padding-bottom: 20px;
+}
+button.main-button {
+    background-color: hsl(198, 60%, 50%);
+    color:#fff;
+    font-family: Open Sans;
+    font-size: 14px;
+    border: 0;
+    border-radius: 50px;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+}
+
+@media(max-width: 768px){
+    div.hero{
+        margin: 0 10%;
+        text-align: center;
+        color:#fff;
+        padding-top: 20px;
+        padding-bottom: 80px;
+    }
+    .heading{
+        font-family: Raleway;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .hero-paragraph, .feature-text{
+        font-size: 14px;
+        font-family: Open Sans;
+        padding: 20px 0;
+        margin: 0 10%;
+    }
+    div.hero img{
+        width: 60%;
+        padding-bottom: 20px;
+    }
+    button.main-button {
+        background-color: hsl(198, 60%, 50%);
+        color:#fff;
+        font-family: Open Sans;
+        font-size: 14px;
+        border: 0;
+        border-radius: 50px;
+        padding: 10px 50px;
+        cursor: pointer;
+    }
+    }
+    @media(max-width: 576px){
+        div.hero{
+            margin: 0 5%;
+            text-align: center;
+            color:#fff;
+            padding-top: 20px;
+            padding-bottom: 80px;
+        }
+        .heading{
+            font-family: Raleway;
+            font-size: 25px;
+            font-weight: 700;
+        }
+        .hero-paragraph, .feature-text{
+            font-size: 14px;
+            font-family: Open Sans;
+            padding: 20px 0;
+            margin: 0 10%;
+        }
+        div.hero img{
+            width: 60%;
+            padding-bottom: 20px;
+        }
+        button.main-button {
+            background-color: hsl(198, 60%, 50%);
+            color:#fff;
+            font-family: Open Sans;
+            font-size: 14px;
+            border: 0;
+            border-radius: 50px;
+            padding: 10px 50px;
+            cursor: pointer;
+        }
+        }
+        
