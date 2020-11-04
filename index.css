@@ -284,8 +284,8 @@ input[type="email"]{
     }
     .feature-heading{
         font-family: Raleway;
-        font-weight: 500;
-        font-size: 18px;
+        font-weight: 600;
+        font-size: 20px;
         padding: 8px 0 0 0;
     } 
 }
@@ -327,8 +327,8 @@ input[type="email"]{
     }
     .feature-heading{
         font-family: Raleway;
-        font-weight: 500;
-        font-size: 18px;
+        font-weight: 600;
+        font-size: 20px;
         padding: 8px 0 0 0;
     } 
     .features img{
@@ -441,7 +441,7 @@ input[type="email"]{
         width: 20%;
     }
     .footer-row i{
-        margin-left: 10px;
+        margin-left: 20px;
     }
     
 }
