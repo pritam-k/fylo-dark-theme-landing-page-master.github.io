@@ -306,7 +306,7 @@ input[type="email"]{
     div.nav{
         padding: 25px 30px 0 30px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
     }
     div.company-logo img{
