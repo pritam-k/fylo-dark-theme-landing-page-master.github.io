@@ -332,7 +332,7 @@ input[type="email"]{
         color:#fff;
         font-family: Open Sans;
         font-size: 14px;
-        border-radius: 10px;
+        border-radius: 50px;
         cursor: pointer;
     }
 }
