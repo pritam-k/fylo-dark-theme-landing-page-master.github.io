@@ -538,6 +538,11 @@ input[type="email"]{
         padding: 10px 30px;
         cursor: pointer;
     }
+    .productive-row h3{
+        font-family: Raleway;
+        font-weight: 600;
+        font-size: 20px;
+    }
 }
 
 /*----------------Hero media queris------------*/
