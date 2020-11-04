@@ -311,7 +311,7 @@ input[type="email"]{
         padding: 8px 0 0 0;
     } 
     .features img{
-        width: 30%;
+        width: 50%;
     }
 }
 @media (max-width: 576px){
@@ -335,7 +335,7 @@ input[type="email"]{
         padding: 8px 0 0 0;
     } 
     .features img{
-        width: 30%;
+        width: 15%;
     }
 }
 
