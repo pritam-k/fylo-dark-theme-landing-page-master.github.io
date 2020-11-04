@@ -609,7 +609,7 @@ button.main-button {
     }
     @media(max-width: 576px){
         div.hero{
-            margin: 0 5%;
+            margin: 0 1%;
             text-align: center;
             color:#fff;
             padding-top: 20px;
