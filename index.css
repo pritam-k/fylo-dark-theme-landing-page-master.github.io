@@ -324,9 +324,10 @@ input[type="email"]{
         font-size: 14px;
         font-weight: 500;
     }
+    
     div.nav-items ul li button{
         border: 0;
-        padding: 10px 20px;
+        padding: 10px auto;
         background-color: hsl(198, 60%, 50%);
         color:#fff;
         font-family: Open Sans;
