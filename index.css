@@ -744,7 +744,7 @@ button.main-button {
                 background-color: hsl(218, 28%, 13%);
                 border-radius: 5px;
                 box-shadow: 2px 2px 2px 1px hsl(218, 28%, 13%);
-                margin: 0 15%;
+                margin: 0 5%;
                 padding: 40px 0;
             }
             .subscription-form h3{
@@ -767,17 +767,17 @@ button.main-button {
                 padding-top: 10px;
             }
             input[type="email"]{
-                width: 65%;
+                width: 100%;
                 padding: 10px;
                 border: 0;
                 border-radius: 20px;
             }
             .get{
-                width: 30%;
+                width: 80%;
                 margin-top: 20px;
                 padding: 10px;
                 border: 0;
-                border-radius: 20px;
+                border-radius: 50px;
                 background-color: hsl(198, 60%, 50%);
                 color: #fff;
                 font-size: 14px;
